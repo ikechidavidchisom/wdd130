@@ -9,8 +9,8 @@
   --secondary-color: #2e3eea; /* American Silver */
   --accent1-color: #e29844; /* Soft Yellow */
   --accent2-color: #587B7F; /* Labradorite Green */
-  --heading-font: "Merriweather", sans-serif;
-  --body-font: "Lato", sans-serif;
+  --heading-font: "Merriweather", serif;
+  --body-font: "Open sans", sans-serif;
 }
 
 header {
