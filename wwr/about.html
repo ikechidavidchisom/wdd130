@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Ikechi David Chisom | WDD 130</title>
+    <title>About Us | Rafting Co.</title>
     <meta name="description" content="Ikechi David Chisom's BYU-Idaho WDD 130 course, Rafting Website - About Us Page .">
     <meta name="author" content="Ikechi David Chisom">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,54 +13,68 @@
   </head>
   <body>
     <header>
+      <div class="site-header">
         <img src="images/wwr-logo.png" alt="Rafting Company Logo">  
         <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About Us</a> 
-          <a href="trips.html">Trips</a>
-          <a href="contact.html">Contact Us</a>
-        </nav>  
+          <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>  
     </header>
     <main>
         <div class="hero">
           <img src="images/hero-image.jpg" alt="rafting background image">
           <h1>White Water Rafting Company</h1>
           <article> 
-            <img src="images/clients.jpg" alt="Happy clients">
-            <p>Lorem ipsum dolor sit amet consectetur ...</p>
+            <ol>
+              <li><img src="images/clients.jpg" alt="Happy clients"></li>
+              <p>Lorem ipsum dolor sit amet consectetur ...</p>
+            </ol>
           </article>
         </div>
-        <section>
+        <section class="history">
           <h2>History</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing ...</p>
+          <p>Rafting Co. began in 1998 with a simple mission: to share the thrill of whitewater rafting with the world. What started as a small group of passionate river guides has grown into a premier adventure company known for unforgettable experiences and unmatched safety standards.</p>
+          <p>Over the years, we've navigated roaring rapids, tranquil streams, and everything in between—building a legacy of trust, excitement, and connection with nature. Our team is made up of seasoned experts who live for the rush of the river and the joy of guiding others through it.</p>
+          <p>Today, Rafting Co. continues to explore new waters, expand our offerings, and inspire a new generation of adventurers. Whether you're a first-time paddler or a seasoned thrill-seeker, we invite you to be part of our story—one rapid at a time.</p>
         </section>
-        <section>
+        <section class="adventures">
           <h2>Adventure Awaits You!</h2>
-          <img src="images/wwr01.jpg" alt="Rafting site sample1">
-            <h4>White River</h4>
-          <img src="images/wwr02.jpg" alt="Rafting site sample2">
-            <h4>Colorado River</h4>
-          <img src="images/wwr03.jpg" alt="Rafting site sample3">
-            <h4>Albania Adventure</h4>
-          <img src="images/wwr04.jpg" alt="Rafting site sample4">
-            <h4>A Raft with multiple Helmets</h4>
-          <img src="images/wwr05.jpg" alt="Rafting site sample5">
-            <h4>An inflatable raft</h4>
+          <figure>
+            <img src="images/wwr01.jpg" alt="White River">
+            <figcaption>White River</figcaption>
+          </figure>
+          <figure>
+            <img src="images/wwr02.jpg" alt="Colorado River">
+            <figcaption>Colorado River</figcaption>
+          </figure>
+          <figure>
+            <img src="images/wwr03.jpg" alt="Albania adventure">
+            <figcaption>Albania Adventure</figcaption>
+          </figure>
+          <figure>
+            <img src="images/wwr04.jpg" alt="A Raft with multiple Helmets">
+            <figcaption>A Raft with multiple Helmets</figcaption>
+          </figure>
+          <figure>
+            <img src="images/wwr05.jpg" alt="An inflatable raft">
+            <figcaption>An inflatable raft</figcaption>
+          </figure>
         </section>  
     </main>
-    <footer>
-      <p> &copy; 2025  White Water Rafting | Ikechi David Chisom</p>
-      <nav class="socialmedia">
-        <a href="https://facebook.com">
-          <img src="images/facebook.png" alt="Facebook Logo">
-        </a>
-        <a href="https://instagram.com">
-          <img src="images/instagram.png" alt="Instagram Logo">
-        </a>
-        <a href="https://twitter.com">
-          <img src="images/twitter.png" alt="Twitter Logo">
-        </a>
-      </nav>
-    </footer>
+<footer>
+  <div class="footer-content">
+    <p>© 2025 White Water Rafting Co. | Ikechi David Chisom</p>
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+    </div>
+  </div>
+</footer>
   </body>
 </html>
