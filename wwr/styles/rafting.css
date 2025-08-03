@@ -52,7 +52,6 @@
   background-color: #00796b;
   padding:10px 15px;
   border-radius: 4px;
-  transition: background-colour 0.3;
 }
 
  nav li a:hover {
@@ -61,7 +60,7 @@
 
   body {
   font-family: var(--body-font);
-  color: var(--secondary-color);
+  color: #2e3eea;
 }
 
 .hero {
@@ -119,8 +118,7 @@
 .adventures {
   display: flex;
   justify-content: space-between;
-  
-  flex-wrap: row;
+  flex-wrap: wrap;
   gap: 20px;
   padding: 40px;
   background-color: #f1f8e9;
@@ -232,7 +230,7 @@ footer {
 
 .employee-profiles img {
   width: 100%;
-  border-radius: auto;
+  border-radius: 50%;
   border: 3px solid #0077b6;
 }
 
@@ -287,4 +285,12 @@ footer {
 
 .contact-form button[type="submit"]:hover {
   background-color: #023e8a;
+}
+
+iframe {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  border: 2px solid #0077b6;
+  border-radius: 6px;
 }
